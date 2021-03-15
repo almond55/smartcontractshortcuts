@@ -23,8 +23,6 @@ contract Token{
         uint256 _decimals, 
         uint256 _totalSupply
     ) public {
-		//owner = msg.sender;
-		//totalSupply = 1000000 * (10 ** decimals);
         name = _name;
         symbol = _symbol;
         decimals = _decimals;
